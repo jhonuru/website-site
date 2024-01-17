@@ -1,6 +1,6 @@
-# **Enlace GitHubPages**
+# **Enlace GitHubPages & React**
 
-[https://jhonuru.github.io/website/](https://jhonuru.github.io/website/)
+[https://jhonuru.github.io/website-site/](https://jhonuru.github.io/website-site/)
 
 # **Dependencias**
 
