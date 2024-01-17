@@ -11,7 +11,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="navbar bg-dark navbar-expand-md bg-body-tertiary">
+    <nav className="navbar navbar-expand-md bg-body-tertiary">
       <div className="container-fluid">
         <Link className="navbar-brand" to={"/"}>
           <FontAwesomeIcon icon={faReact} size='2x' style={{ color: '#00D1F7' }} className="ani1" />
@@ -31,12 +31,12 @@ export default function Navbar() {
               <Link className="nav-link" to={"/contacto"}>Contacto</Link>
             </li>
           </ul>
-        </div>
-        <div className="row">
-          <div className="col-auto d-flex align-items-center">
-            <FontAwesomeIcon icon="fa-solid fa-sun" />
-            <div className="form-check form-switch mx-2 d-flex justify-content-center"><input className="form-check-input p-2" type="checkbox" role="switch" id="flexSwitchCheckCheked" onClick={modeDark} /></div>
-            <FontAwesomeIcon icon="fa-solid fa-moon" />
+          <div className="row">
+            <div className="col-auto d-flex align-items-center">
+              <FontAwesomeIcon icon="fa-solid fa-sun" />
+              <div className="form-check form-switch mx-2 d-flex justify-content-center"><input className="form-check-input p-2" type="checkbox" role="switch" id="flexSwitchCheckCheked" onClick={modeDark} /></div>
+              <FontAwesomeIcon icon="fa-solid fa-moon" />
+            </div>
           </div>
         </div>
       </div>
