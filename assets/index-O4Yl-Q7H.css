@@ -1,4 +1,4 @@
-@charset "UTF-8";.ani1{animation:rotate-animation 20s infinite linear}@keyframes rotate-animation{0%{transform:rotate(0)}50%{transform:rotate(180deg)}to{transform:rotate(360deg)}}/*!
+@charset "UTF-8";.ani1{animation:rotate-animation 20s infinite linear}@keyframes rotate-animation{0%{transform:rotate(0)}50%{transform:rotate(180deg)}to{transform:rotate(360deg)}}.nav-item{padding-left:5px;border-radius:15px;transition:all .5s ease-out!important}.nav-item:hover{background-color:#fafafa}.nav-item:hover h4,.nav-item:hover svg{color:#bda7a7}/*!
 * Bootstrap  v5.3.2 (https://getbootstrap.com/)
 * Copyright 2011-2023 The Bootstrap Authors
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
