@@ -11,7 +11,7 @@ export default function MyRoutes() {
       <Navbar/>
       <Routes>
         <Route path="*" element={<NotFound/>} />
-        <Route index element={<Home/>} />
+        <Route index element={<Home />} />
         <Route path='servicios' element={<Service/>} />
         <Route path="contacto" element={<Contact/>} />
       </Routes>
